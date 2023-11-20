@@ -36,5 +36,5 @@ jobs:
         image: thevihan/github_actions_sample
         tags: v1, latest
         registry: docker.io
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        username: ${{ secrets.DEVOPS_USERNAME }}
+        password: ${{ secrets.DEVOPS_PASSWORD }}
